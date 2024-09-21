@@ -1,0 +1,29 @@
+name: namer_app # Updated the app name
+description: A sports-related login and signup Flutter app.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=3.1.1 <4.0.0"  # Specify compatible Flutter SDK versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/Tennis_Racket_and_Balls.jpg
+    - lib/Google.png
+    - lib/Facebook.png
+
+
+  # Add your image file to the assets section
